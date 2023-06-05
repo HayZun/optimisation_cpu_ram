@@ -14,7 +14,7 @@ zabbix.login(zabbix_username, zabbix_password)
 threshold = 0.5
 
 # Nom du groupe d'hôtes à vérifier
-group_name = 'Infra-DATA/Midi2i'
+group_name = ''
 
 # Fonction pour récupérer les informations sur l'utilisation du CPU et de la RAM
 def get_resource_usage(host_id):
